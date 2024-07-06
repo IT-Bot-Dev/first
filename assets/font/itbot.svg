@@ -1,0 +1,14 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg">
+<metadata>Copyright (C) 2024 by original authors @ fontello.com</metadata>
+<defs>
+<font id="itbot" horiz-adv-x="1000" >
+<font-face font-family="itbot" font-weight="400" font-stretch="normal" units-per-em="1000" ascent="850" descent="-150" />
+<missing-glyph horiz-adv-x="1000" />
+<glyph glyph-name="ico-darkmode" unicode="&#xe800;" d="M481 850h41v-183q55-4 98-21 43-17 91-55l157 154 28-29-155-155q40-52 56-92 21-52 22-102h182v-38h-182q-10-102-77-188l154-158-30-27-154 153q-53-39-93-55-39-15-97-21v-183h-41v183q-61 8-103 25-41 17-85 50l-159-151-28 27 155 156q-36 45-54 90-19 44-25 102h-182v37h182q5 58 23 100 18 44 55 89l-154 156 26 31 159-153q54 38 97 54 43 17 93 21z m297-500q0 115-82 196-82 82-196 82-115 0-197-82-81-81-81-196 0-115 81-197 82-81 197-81 114 0 196 81 82 82 82 197z" horiz-adv-x="1000" />
+
+<glyph glyph-name="it-bot-logo" unicode="&#xe801;" d="M905 417a33 33 0 0 1-33-33c0-193-124-362-304-418-180-56-375 15-479 176a33 33 0 0 1-46 9 33 33 0 0 1-9-46c120-184 345-266 554-202 208 64 350 260 350 481a33 33 0 0 1-33 33z m-705-74h-200v52h66v403h-66v52h200v-52h-66v-403h66z m476 447h-181v-447h-67v447h-181v60h429z" horiz-adv-x="968" />
+</font>
+</defs>
+</svg>

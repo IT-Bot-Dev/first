@@ -1,0 +1,52 @@
+.error-frame {
+    display: flex;
+    align-items: flex-end;
+    padding: 20vw 10vh 0;
+    justify-content: space-around;
+    background-image: url('../assets/sand-2-deepdream.jpg');
+    background-size: cover;
+    background-position: center;
+    background-color: #F7F7F7;
+    color: white;
+ 
+}
+
+.inner-frame{
+    background-color: rgba(0, 0, 0, 0.3);
+    overflow-wrap: break-word;
+    width: 100%;
+}
+
+.inner-frame a {
+    color: #b0c4ff;
+    text-decoration: none;
+    width: 60%;
+    height: 60%;
+    padding: 20px;
+}
+.inner-frame a:hover {
+    color: #3350cc;
+    text-decoration: none;
+}
+
+/* Small Mobile Devices (<= 360px) */
+@media only screen and (max-width: 360px) {
+ 
+    .error-frame {
+
+        padding: 0;
+        margin: 0; 
+        min-height: 60vh;
+        align-items: stretch;
+    }
+    .inner-frame{
+        padding: 0;
+        margin: 0; 
+        width: auto;
+        align-items: stretch;
+        text-align: center;
+    }
+
+
+}
+
