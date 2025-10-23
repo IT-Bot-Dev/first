@@ -21,12 +21,41 @@
   "contact-us": "Contacts",
 
   "about-title": "About Us",
-  "about-description": "Company history, values, and team expertise in machine learning and technology optimization.",
-  "about-contact": "We just starting, no form yet available, please email to us",
-  "email-info": "info@it-bot.com",
+  "about-intro": "We are a Romanian-based software company building dependable, data-driven systems for modern businesses. We work with healthcare, big data, and complex software systems built for reliability, scalability, and long-term support. Yet our roots lie in sci-fi and gaming culture, where imagination and technology meet to shape the future. This spirit drives everything we do. For us, software development is not merely a business — it is a calling, a craft through which we serve both people and progress.",
+  "about-core-title": "Our core activities include:",
+  "about-core-1": "Custom software development",
+  "about-core-2": "Editing and publishing specialized software products",
+  "about-core-3": "IT and web portal services",
+  "about-core-desc": "We design, build, and maintain software that helps companies grow efficiently — balancing technology, creativity, and quality. We believe that experience shapes culture, and culture drives quality. Our approach is built on TQM, ISO 25000, LEAN, and DSDM principles, ensuring that every project meets the highest standards. We build quality into every process, align with ISO 25000 to deliver measurable excellence, apply Lean to remove waste and focus on value, and use DSDM to turn principles into performance with controlled adaptability and defined quality levels.",
+
+  "founder-title": "Thoughtfully",
+  "founder-desc": "I’m Michael P. My background combines medical science and IT. As the founder, I bring over a decade of experience in project management, software quality assurance, product design, and business analysis. My focus on communication across technologies, process improvement, and total quality management defines our company’s philosophy — thoughtful quality in everything we build.",
+
+  "technology-title": "Technology",
+  "technology-desc1": "We work with modern and reliable technologies, including automated testing and delivery pipelines, such as Java, Python, PostgreSQL, Redis, and Kubernetes. We actively use AI-assisted coding to accelerate development and maintain consistent quality.",
+  "technology-desc2": "One of our key services is vibe-code cleaning and code refactoring, we transform legacy or inconsistent projects into robust, enterprise-level solutions ready for scaling and integration.",
+  "technology-desc3": "Our AI integration follows a proactive approach aligned with state-of-the-art practices and regulatory frameworks, including the NIST AI RMF Playbook and the EU AI Act, ensuring efficiency, compliance, and desired quality. With a background in healthcare projects, we understand the importance of compliance, data security, and ethical AI use, ensuring that innovation never compromises trust or quality.",
+
+  "clients-title": "Our Clients",
+  "clients-desc": "We are proud to collaborate with partners either startups or established enterprises. Our clients value our transparent communication, reliability, and focus on long-term results.",
+
+  "contact-title": "Have a project in mind? Let's talk",
+  "contact-intro-text": "We’re happy to connect with founders, teams, and companies who share our mindset: clarity, responsibility, and respect for time. We believe every conversation should create value — not noise. Before reaching out, please take a moment to check whether now is the right time to engage an external development partner. We do our best work when:",
+  "contact-if-1": "Your goals, users, and success criteria are clearly defined.",
+  "contact-if-2": "You need experienced engineers to accelerate delivery or strengthen architecture.",
+  "contact-if-3": "You want to raise your security, automation, or code quality to enterprise standards.",
+  "contact-if-4": "You’re preparing for audits, scaling, or compliance.",
+  "contact-if-5": "If your product is still in early validation, you’re welcome to contact us to stay in touch and explore collaboration as your direction becomes clearer.",
+  "contact-else-1": "We are not a consulting agency. Our focus is on building and delivering. If your challenge is not yet well-defined, we might not be the right team for now, but we will gladly guide you toward the next step when the time is right.",
+  "contact-then": "We value direct, well-prepared collaboration over quick sales calls. If that sounds like what you’re looking for, let’s start with a brief introduction:",
+
+  "contact-form-name" : "Your name",
+  "contact-form-company" : "Your company",
+  "contact-form-request": "Please send a few clear lines about your project, current challenges, and goals.",
 
   "nav-welcome": "Welcome",
   "nav-about": "About Us",
   "nav-contact": "Contact",
-  "copyright": "© 2024 IT Bot"
+  "copyright": "© 2025 IT Bot",
+
 }

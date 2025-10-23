@@ -1,7 +1,8 @@
 
 const nightModeToggleButton$ = jQuery('#nightModeToggleButton')
 
-// Function to apply or remove night-mode class
+const NIGHT_MODE_KEY = 'nightModePreference';
+
 function applyNightMode(isNightMode) {
     if (isNightMode) {
         jQuery('body').addClass('night-mode');
@@ -10,21 +11,37 @@ function applyNightMode(isNightMode) {
     }
 }
 
-// Detect initial system dark mode setting
-const isSystemDarkMode = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
-applyNightMode(isSystemDarkMode);
+function saveNightModePreference(isNightMode) {
+    localStorage.setItem(NIGHT_MODE_KEY, isNightMode ? 'dark' : 'light');
+}
 
-// Listen for changes in the system dark mode setting
+function loadNightModePreference() {
+    return localStorage.getItem(NIGHT_MODE_KEY);
+}
+
+jQuery(document).ready(function() {
+    const savedPreference = loadNightModePreference();
+    const isSystemDarkMode = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+
+    if (savedPreference !== null) {
+        // User has a saved preference - use it
+        applyNightMode(savedPreference === 'dark');
+    } else {
+        // No saved preference - use system
+        applyNightMode(isSystemDarkMode);
+    }
+});
+
 window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', event => {
+    localStorage.removeItem(NIGHT_MODE_KEY);  // Clear saved preference - sync back to system
     applyNightMode(event.matches);
 });
 
-
-// Toggle night mode on button click
-
 jQuery(document).on('click', '#nightModeToggleButton', () => {
-    const isNightMode = jQuery('body').hasClass('night-mode'); // what exactly ?? jQuery('body').toggleClass('night-mode')
-    applyNightMode(!isNightMode);
+    const isNightMode = jQuery('body').hasClass('night-mode');
+    const newMode = !isNightMode;
+    applyNightMode(newMode);
+    saveNightModePreference(newMode);
     console.log('nightModeToggleButton clicked!');
 });
 

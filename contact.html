@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/night-mode.css">
+    <link rel="stylesheet" href="css/itbot.css">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu+Condensed&display=swap" rel="stylesheet">
+    <!-- For modern browsers and devices -->
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/it-bot-logo.ico">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/it-bot-logo.ico">
+    <!-- For iOS devices -->
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/it-bot-logo.ico">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.slim.min.js"
+            integrity="sha512-sNylduh9fqpYUK5OYXWcBleGzbZInWj8yCJAU57r1dpSK9tP2ghf/SRYCMj+KsslFkCOt3TvJrX2AV/Gc3wOqA=="
+            crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="js/localization.js"></script>
+    <script src="js/night-mode.js"></script>
+    <script src="js/header.js"></script>
+    <script src="js/footer.js"></script>
+
+    <title data-localize="contact-title">Contact</title>
+
+</head>
+<body>
+<div class="root-container">
+    <header class="header">
+    </header>
+
+    <!-- Section: Contact -->
+    <section class="content-frame">
+        <div class="chapter-frame">
+            <div class="text-frame" style="width: 100%;">
+                <b class="text-title" data-localize="contact-title">Have a project in mind? Let's talk</b>
+
+                <p class="text-important" data-localize="contact-intro-text"> We’re happy to connect with founders,
+                    teams, and companies who share our mindset: clarity, responsibility, and respect for time.
+                    We believe every conversation should create value — not noise.
+                    Before reaching out, please take a moment to check whether now is the right time to engage an
+                    external development partner.
+                    We do our best work when:</p>
+                <br>
+                <ul class="text-regular">
+                    <li data-localize="contact-if-1">Your goals, users, and success criteria are clearly defined.</li>
+                    <li data-localize="contact-if-2">You need experienced engineers to accelerate delivery or strengthen
+                        architecture.
+                    </li>
+                    <li data-localize="contact-if-3">You want to raise your security, automation, or code quality to
+                        enterprise standards.
+                    </li>
+                    <li data-localize="contact-if-4">You’re preparing for audits, scaling, or compliance.</li>
+
+                    <li data-localize="contact-if-5">If your product is still in early validation, we’ll be happy to
+                        stay in touch and explore collaboration as your direction becomes clearer.
+                    </li>
+                </ul>
+                <br/>
+                <div class="text-regular" data-localize="contact-else-1">We are not a consulting agency. Our focus is on
+                    building and delivering. </div>
+                <div class="text-regular" data-localize="contact-then">
+                    We value direct, well-prepared collaboration.
+                </div>
+
+                <form action="mailto:dev@it-bot.com?subject=Project%20Proposal" method="post" enctype="text/plain">
+                    <br/>
+                    <input type="text" class="text-mono form-input" name="" data-localize="contact-form-name"
+                           value="Your name">
+                    <input type="text" class="text-mono form-input" name="" data-localize="contact-form-company"
+                           value="Name of your company">
+                    <br>
+                    <textarea type="text" class="form-box form-input" name="" data-localize="contact-form-request">Please send a few clear lines about your project, current challenges, and goals.</textarea>
+                    <br>
+                    <input class="form-send-button" type="submit" value="Send">
+                </form>
+
+
+            </div>
+        </div>
+    </section>
+
+    <footer>
+    </footer>
+
+</div>
+
+</body>
+</html>

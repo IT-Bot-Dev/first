@@ -36,7 +36,7 @@ body {
 .text-regular {
     font-size: 20;
     font-style: medium;
-    margin: 0 auto;
+    /*margin: 0 auto;*/
 }
 
 .text-mono {
@@ -162,8 +162,36 @@ a:hover {
     border-radius: 8px;
     background-size: cover;
     background-repeat: no-repeat;
-} 
+}
 
+.form-input{
+    width: 180px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    padding: 8px;
+}
+
+.form-box {
+    width: 382px;
+    height: 25vh;
+    margin-top: 5px;
+    resize: vertical; /* allow user to resize vertically only */
+}
+
+.form-send-button {
+    background-color: #013368;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.form-send-button:hover {
+    background-color: #013368;
+    color: grey;
+}
 
 /* Small Mobile Devices (<= 360px) */
 @media only screen and (max-width: 360px) {
