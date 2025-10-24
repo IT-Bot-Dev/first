@@ -63,18 +63,33 @@
                     We value direct, well-prepared collaboration.
                 </div>
 
-                <form action="mailto:dev@it-bot.com?subject=Project%20Proposal" method="post" enctype="text/plain">
+                <form action="mailto:dev@it-bot.com?subject=Project%20Proposal" method="post" enctype="text/plain" id="contactForm">
                     <br/>
-                    <input type="text" class="text-mono form-input" name="" data-localize="contact-form-name"
-                           value="Your name">
-                    <input type="text" class="text-mono form-input" name="" data-localize="contact-form-company"
-                           value="Name of your company">
+                    <input type="text" class="text-mono form-input" name="name" data-localize="contact-form-name"
+                           placeholder="Your name">
+                    <input type="text" class="text-mono form-input" name="company" data-localize="contact-form-company"
+                           placeholder="Name of your company">
                     <br>
-                    <textarea type="text" class="form-box form-input" name="" data-localize="contact-form-request">Please send a few clear lines about your project, current challenges, and goals.</textarea>
+                    <textarea type="text" class="form-box form-input" name="message" data-localize="contact-form-request" placeholder="Please send a few clear lines about your project, current challenges, and goals."></textarea>
                     <br>
                     <input class="form-send-button" type="submit" value="Send">
                 </form>
 
+                <script>
+                    document.getElementById('contactForm').addEventListener('submit', e => {
+                        e.preventDefault()
+
+                        const data = Object.fromEntries(new FormData(e.target))
+                        const subject = encodeURIComponent("Project Proposal") // <— defined here
+                        const body =
+                            `Name: ${data.name}\n`+
+                            `Company: ${data.company}\n`+
+                            `Message: ${data.message}`
+
+                        window.location.href =
+                            `mailto:dev@it-bot.com?subject=${subject}&body=${encodeURIComponent(body)}`
+                    })
+                </script>
 
             </div>
         </div>

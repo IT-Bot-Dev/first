@@ -56,9 +56,16 @@ $(document).ready(function () {
                                     "updatedInput": text
                                 });
                                 element.placeholder = text;
-                                element.value = text;
+                            },
+                            'textarea': function (element, text) {
+                                console.log({
+                                    "key": key,
+                                    "original": element.value,
+                                    "updatedInput": text
+                                });
+                                element.placeholder = text;
                             }
-                        };
+                            };
 
                         (rules[element.tagName.toLowerCase()] || rules['_default'])(element, data[key]);
                     });
