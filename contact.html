@@ -63,14 +63,14 @@
                     We value direct, well-prepared collaboration.
                 </div>
 
-                <form action="mailto:dev@it-bot.com?subject=Project%20Proposal" method="post" enctype="text/plain" id="contactForm">
+                <form id="contactForm">
                     <br/>
                     <input type="text" class="text-mono form-input" name="name" data-localize="contact-form-name"
-                           placeholder="Your name">
+                           placeholder="Your name" autocomplete="name">
                     <input type="text" class="text-mono form-input" name="company" data-localize="contact-form-company"
-                           placeholder="Name of your company">
+                           placeholder="Name of your company" autocomplete="name">
                     <br>
-                    <textarea type="text" class="form-box form-input" name="message" data-localize="contact-form-request" placeholder="Please send a few clear lines about your project, current challenges, and goals."></textarea>
+                    <textarea type="text" class="form-box form-input" name="message" data-localize="contact-form-request" placeholder="Please send a few clear lines about your project, current challenges, and goals." autocomplete="name"></textarea>
                     <br>
                     <input class="form-send-button" type="submit" value="Send">
                 </form>

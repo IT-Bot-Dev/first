@@ -3,22 +3,31 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/night-mode.css">
     <title>It is a temporary page for redirect</title>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.slim.min.js"
+            integrity="sha512-sNylduh9fqpYUK5OYXWcBleGzbZInWj8yCJAU57r1dpSK9tP2ghf/SRYCMj+KsslFkCOt3TvJrX2AV/Gc3wOqA=="
+            crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="js/header.js"></script>
+    <script src="js/footer.js"></script>
+
+    <script src="js/night-mode.js"></script>
     <script>
         // This script will redirect the user immediately upon loading the page
         function redirectToPage() {
-            window.location.href = '/welcome.html';
+            window.location.href = 'welcome.html';
         }
 
         // Call the redirect function when the document has fully loaded
         window.onload = redirectToPage;
     </script>
+
 </head>
 <body>
-    <p>If you are not redirected automatically, <a href="/welcome.html">click here</a>.</p>
-    <script src="js/night-mode.js"></script>
-    <script src ="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.slim.min.js" integrity="sha512-sNylduh9fqpYUK5OYXWcBleGzbZInWj8yCJAU57r1dpSK9tP2ghf/SRYCMj+KsslFkCOt3TvJrX2AV/Gc3wOqA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-    <script src="js/header.js"></script>
-    <script src="js/footer.js"></script>
+<div class="root-container">
+    <p><a href="welcome.html">If you are not redirected automatically, click here</a>.</p>
+</div>
 </body>
 </html>

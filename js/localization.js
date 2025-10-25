@@ -4,7 +4,7 @@ $(document).ready(function () {
         return navigator.language || navigator.userLanguage;
     }
 
-    console.log("This is a LOCALISATION");
+    // console.log("This is a LOCALISATION");
 
     function localize(language) {
 
@@ -34,35 +34,35 @@ $(document).ready(function () {
 
                         const rules = {
                             '_default': function (element, text) {
-                                console.log({
-                                    "key": key,
-                                    "original": element.textContent,
-                                    "updatedText": text
-                                });
+                                // console.log({
+                                //     "key": key,
+                                //     "original": element.textContent,
+                                //     "updatedText": text
+                                // });
                                 element.textContent = text;
                             },
                             'img': function (element, text) {
-                                console.log({
-                                    "key": key,
-                                    "original": element.alt,
-                                    "updatedAlt": text
-                                });
+                                // console.log({
+                                //     "key": key,
+                                //     "original": element.alt,
+                                //     "updatedAlt": text
+                                // });
                                 element.alt = text;
                             },
                             'input': function (element, text) {
-                                console.log({
-                                    "key": key,
-                                    "original": element.value,
-                                    "updatedInput": text
-                                });
+                                // console.log({
+                                //     "key": key,
+                                //     "original": element.value,
+                                //     "updatedInput": text
+                                // });
                                 element.placeholder = text;
                             },
                             'textarea': function (element, text) {
-                                console.log({
-                                    "key": key,
-                                    "original": element.value,
-                                    "updatedInput": text
-                                });
+                                // console.log({
+                                //     "key": key,
+                                //     "original": element.value,
+                                //     "updatedInput": text
+                                // });
                                 element.placeholder = text;
                             }
                             };
