@@ -30,7 +30,6 @@
 <!-- Section 1: About Us & Core Activities -->
 <section class="content-frame">
     <div class="chapter-frame">
-
         <div class="text-frame" style="width: 100%;">
             <b class="text-title" data-localize="about-title">About Us</b>
             <p class="text-important" data-localize="about-intro">We are a Romanian-based software company...</p>
@@ -68,12 +67,72 @@
     </div>
 </section>
 
-<!-- Section 4: Our Clients (placeholder for future design) -->
+<!-- Section 4: Our Clients -->
 <section class="content-frame">
     <div class="chapter-frame">
         <div class="text-frame" style="width: 100%;">
             <b class="text-title" data-localize="clients-title">Our Clients</b>
             <p class="text-important" data-localize="clients-desc">We are proud to collaborate with partners...</p>
+
+            <!-- TEST CASE 1: Full content (image + feedback + name + link) -->
+<!--            <div class="testimonial-card">-->
+<!--                <div class="testimonial-image" style="background-image: url('assets/water-1-deepderam.jpeg');"></div>-->
+<!--                <div class="testimonial-content">-->
+<!--                    <p class="testimonial-feedback text-regular">-->
+<!--                        "<span data-localize="clients-1-feedback">Feedback...</span>"-->
+<!--                    </p>-->
+<!--                    <p class="testimonial-client">-->
+<!--                        <b data-localize="clients-1-name">Business Credit</b> (with image)-->
+<!--                    </p>-->
+<!--                    <a class="testimonial-link" data-localize="clients-1-url" href="https://bck.com.ua/">-->
+<!--                        <span data-localize="clients-1-url">https://bck.com.ua/</span>-->
+<!--                    </a>-->
+<!--                </div>-->
+<!--            </div>-->
+
+            <!-- TEST CASE 2: Without image (feedback + name + link) -->
+            <div class="testimonial-card">
+                <div class="testimonial-image" style=""></div>
+                <div class="testimonial-content">
+                    <p class="testimonial-feedback text-regular">
+                        "<span data-localize="clients-1-feedback">Feedback...</span>"
+                    </p>
+                    <p class="testimonial-client">
+                        <b data-localize="clients-1-name">Business Credit</b>
+                    </p>
+                    <a class="testimonial-link" data-localize="clients-1-url" href="https://bck.com.ua/">
+                        <span data-localize="clients-1-url">https://bck.com.ua/</span>
+                    </a>
+                </div>
+            </div>
+
+            <!-- TEST CASE 3: Without link (image + feedback + name only) -->
+<!--            <div class="testimonial-card">-->
+<!--                <div class="testimonial-image" style="background-image: url('assets/sand-1-deepdream.jpg');"></div>-->
+<!--                <div class="testimonial-content">-->
+<!--                    <p class="testimonial-feedback text-regular">-->
+<!--                        "<span data-localize="clients-1-feedback">Feedback...</span>"-->
+<!--                    </p>-->
+<!--                    <p class="testimonial-client">-->
+<!--                        <b data-localize="clients-1-name">Business Credit</b> ->
+<!--                    </p>-->
+<!--                </div>-->
+<!--            </div>-->
+
+            <!-- TEST CASE 4: Only mandatory (feedback + name) -->
+<!--            <div class="testimonial-card">-->
+<!--                <div class="testimonial-image" style=""></div>-->
+<!--                <div class="testimonial-content">-->
+<!--                    <p class="testimonial-feedback text-regular">-->
+<!--                        "<span data-localize="clients-1-feedback">Feedback...</span>"-->
+<!--                    </p>-->
+<!--                    <p class="testimonial-client">-->
+<!--                        <b data-localize="clients-1-name">Business Credit</b> -->
+<!--                    </p>-->
+<!--                </div>-->
+<!--            </div>-->
+
+            <!-- To add more testimonials, copy the testimonial-card div above and change clients-1-* to clients-2-*, etc. -->
         </div>
     </div>
 </section>

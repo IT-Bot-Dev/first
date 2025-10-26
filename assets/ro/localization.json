@@ -1,0 +1,64 @@
+{
+  "logo-alt": "Sigla companiei - [IT Bot, unde literele mari I și T și o linie curbată formează o formă care sugerează un zâmbet.",
+  "page-title": "Adu tehnologia informației la nevoile tale",
+
+  "welcome-title": "Bun venit",
+  "welcome-services": "Armonie în afaceri",
+  "welcome-intro": "Sigla noastră zâmbitoare reflectă angajamentul nostru de a oferi servicii IT excepționale, cu o notă personală. Suntem o echipă dedicată sprijinirii companiilor și persoanelor din domeniul IT din întreaga lume.",
+  "welcome-software-dev": "Afacerea ta este unică și are nevoie de soluții IT adaptate pentru eficiență maximă. Te ajutăm să valorifici la maximum software-ul existent, simplificând procesele și maximizând performanța.",
+  "welcome-infrastructure-mgmt": "Rămâi fiabil, sigur și scalabil cu infrastructura ta IT. Lasă-ne să ne ocupăm de servere, rețele și servicii cloud, asigurând o funcționare lină și scalabilitate.",
+  "welcome-maintenance": "Nu fi luat prin surprindere. Contează pe suportul nostru proactiv pentru a minimiza întreruperile și a asigura o funcționare fără probleme. Oferim întreținere și suport continuu pentru ca sistemele tale să funcționeze fără probleme și pentru a rezolva rapid orice problemă.",
+
+  "benefits-title": "Beneficii",
+  "benefits-desc": "Concentrează-te pe creativitate și inovație delegând sarcinile tehnice și de rutină. Crește productivitatea afacerii tale cu soluții bazate pe învățare automată.",
+
+  "testimonials": "Mărturii ale clienților",
+  "testimonials-quote1": "Datele trebuie să funcționeze, precum Mirodenia ce alimentează imperiile și Breslele, dar persoanele necunoscute care modelează peisajul galactic sunt adevărații eroi. Navigatorii și mentatii, cu previziunea lor, nu sunt conducătorii, ci consilierii și tehnicienii dominației interstelare. Ei depășesc complexitatea mediilor și riscurile tehnologice pentru ca Împăratul Padishah sau Kwisatz Haderach să-și împlinească destinul.",
+  "testimonials-quote2": "IT Bot întruchipează acest spirit. Nu suntem mirodenia strălucitoare, combustibilul progresului, ci Breasla care te ghidează prin întinderea digitală primejdioasă. Oamenii noștri, paznicii tărâmului digital, automatizează rutina, eliberând echipa ta umană pentru inovație strategică și parteneriat. Lasă fețele tehnologice zâmbitoare să traseze un curs pentru organizația ta, astfel încât să te poți concentra fără povara rutinei obositoare.",
+  "testimonials-quote3": "IT Bot face ca scuturile și costumele tale să funcționeze perfect în fața realităților dure ale complexității tehnologice. Suntem mâna invizibilă care oferă putere capitalului tău uman pentru a-și atinge potențialul maxim.",
+  "client-name": "În slujba Casei Nobile.",
+  "cta": "Începe acum",
+  "contact-us": "Contacte",
+
+  "about-title": "Despre noi",
+  "about-intro": "Suntem o companie românească de software, dedicată construirii de sisteme fiabile și bazate pe date pentru afacerile moderne. Lucrăm cu domenii precum sănătate, big data și sisteme software complexe, construite pentru fiabilitate, scalabilitate și suport pe termen lung. Rădăcinile noastre se află în cultura sci-fi și gaming, acolo unde imaginația și tehnologia se întâlnesc pentru a modela viitorul. Acest spirit ne inspiră în tot ceea ce facem. Pentru noi, dezvoltarea software nu este doar o afacere — este o chemare, un meșteșug prin care servim oamenii și progresul.",
+  "about-core-title": "Activitățile noastre principale includ:",
+  "about-core-1": "Dezvoltare software personalizată",
+  "about-core-2": "Editare și publicare de produse software specializate",
+  "about-core-3": "Servicii IT și portaluri web",
+  "about-core-desc": "Proiectăm, construim și întreținem software care ajută companiile să crească eficient — echilibrând tehnologia, creativitatea și calitatea. Credem că experiența modelează cultura, iar cultura determină calitatea. Abordarea noastră se bazează pe principiile TQM, ISO 25000, LEAN și DSDM, pentru ca fiecare proiect să atingă cele mai înalte standarde. Construim calitatea în fiecare proces, ne aliniem la ISO 25000 pentru excelență măsurabilă, aplicăm Lean pentru a elimina risipa și a ne concentra pe valoare și folosim DSDM pentru a transforma principiile în performanță cu adaptabilitate controlată și niveluri de calitate definite.",
+
+  "founder-title": "Cu grijă",
+  "founder-desc": "Sunt Michael P. Experiența mea combină știința medicală și IT-ul. În calitate de fondator, aduc peste un deceniu de experiență în management de proiect, asigurarea calității software-ului, design de produs și analiză de afaceri. Accentul meu pe comunicarea între tehnologii, îmbunătățirea proceselor și managementul calității totale definește filosofia companiei noastre — calitate atentă în tot ceea ce construim.",
+
+  "technology-title": "Tehnologie",
+  "technology-desc1": "Lucrăm cu tehnologii moderne și fiabile, inclusiv testare și livrare automată, precum Java, Python, PostgreSQL, Redis și Kubernetes. Folosim activ codare asistată de inteligență artificială pentru a accelera dezvoltarea și a menține calitatea constantă.",
+  "technology-desc2": "Unul dintre serviciile noastre cheie este curățarea și refactorizarea codului („vibe-code cleaning”), transformând proiectele vechi sau inconsistente în soluții robuste, la nivel enterprise, pregătite pentru scalare și integrare.",
+  "technology-desc3": "Integrarea AI-ului nostru urmează o abordare proactivă, aliniată la practicile moderne și la reglementările relevante, inclusiv NIST AI RMF Playbook și Actul UE privind AI, asigurând eficiență, conformitate și calitate dorită. Cu experiență în proiecte din domeniul sănătății, înțelegem importanța conformității, securității datelor și utilizării etice a AI-ului, garantând că inovația nu compromite niciodată încrederea sau calitatea.",
+
+  "clients-title": "Clienții noștri",
+  "clients-desc": "Suntem mândri să colaborăm atât cu startup-uri, cât și cu întreprinderi consacrate. Clienții noștri apreciază comunicarea transparentă, fiabilitatea și orientarea noastră spre rezultate pe termen lung.",
+  "clients-1-feedback": "We contacted and received assistance in creating a model on the topic of risk management for the product portfolio of a pharmacy chain in retail trade.\nThe main factors that were addressed were the optimization of the product range in order to maximize profits and minimize risks. Thank you.",
+  "clients-1-name": "Business Credit",
+  "clients-1-url": "https://bck.com.ua/",
+  "clients-1-image": "",
+
+  "contact-title": "Ai un proiect în minte? Hai să vorbim",
+  "contact-intro-text": "Ne bucurăm să intrăm în legătură cu fondatori, echipe și companii care împărtășesc mentalitatea noastră: claritate, responsabilitate și respect pentru timp. Credem că fiecare conversație trebuie să creeze valoare — nu zgomot. Înainte de a ne contacta, te rugăm să verifici dacă este momentul potrivit pentru a colabora cu un partener extern de dezvoltare. Lucrăm cel mai bine atunci când:",
+  "contact-if-1": "Obiectivele, utilizatorii și criteriile de succes sunt clar definite.",
+  "contact-if-2": "Ai nevoie de ingineri experimentați pentru a accelera livrarea sau a consolida arhitectura.",
+  "contact-if-3": "Dorești să ridici nivelul de securitate, automatizare sau calitate a codului la standarde enterprise.",
+  "contact-if-4": "Te pregătești pentru audituri, scalare sau conformitate.",
+  "contact-if-5": "Dacă produsul tău este încă în validare timpurie, ești binevenit să ne contactezi pentru a rămâne în legătură și a explora colaborarea pe măsură ce direcția ta devine mai clară.",
+  "contact-else-1": "Nu suntem o agenție de consultanță. Ne concentrăm pe construcție și livrare. Dacă provocarea ta nu este încă bine definită, s-ar putea să nu fim echipa potrivită deocamdată, dar te vom ghida cu plăcere spre următorul pas la momentul potrivit.",
+  "contact-then": "Apreciem colaborarea directă și bine pregătită, mai presus de apelurile rapide de vânzări. Dacă aceasta este abordarea pe care o cauți, să începem cu o scurtă introducere:",
+
+  "contact-form-name" : "Numele tău",
+  "contact-form-company" : "Compania ta",
+  "contact-form-request": "Te rugăm să trimiți câteva rânduri clare despre proiectul tău, provocările actuale și obiectivele.",
+
+  "nav-welcome": "Acasă",
+  "nav-about": "Despre noi",
+  "nav-contact": "Contact",
+  "copyright": "© 2025 IT Bot"
+}

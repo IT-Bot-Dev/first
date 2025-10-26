@@ -38,6 +38,10 @@
 
   "clients-title": "Our Clients",
   "clients-desc": "We are proud to collaborate with partners either startups or established enterprises. Our clients value our transparent communication, reliability, and focus on long-term results.",
+  "clients-1-feedback": "We contacted and received assistance in creating a model on the topic of risk management for the product portfolio of a pharmacy chain in retail trade.\nThe main factors that were addressed were the optimization of the product range in order to maximize profits and minimize risks. Thank you.",
+  "clients-1-name": "Business Credit - CEO Sergii Yeremenko",
+  "clients-1-url": "https://bck.com.ua/",
+  "clients-1-image": "",
 
   "contact-title": "Have a project in mind? Let's talk",
   "contact-intro-text": "We’re happy to connect with founders, teams, and companies who share our mindset: clarity, responsibility, and respect for time. We believe every conversation should create value — not noise. Before reaching out, please take a moment to check whether now is the right time to engage an external development partner. We do our best work when:",
@@ -57,5 +61,4 @@
   "nav-about": "About Us",
   "nav-contact": "Contact",
   "copyright": "© 2025 IT Bot"
-
 }

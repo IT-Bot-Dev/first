@@ -45,5 +45,21 @@ body.night-mode {
 
 .night-mode .form-input{
     background-color: #dad7cc;
+}
 
+.night-mode .testimonial-card {
+    border-left-color: #666;
+}
+
+.night-mode .testimonial-image {
+    filter: grayscale(0.75);
+}
+
+.night-mode .language-menu {
+    background-color: black;
+    border-color: grey;
+}
+
+.night-mode .language-menu a:hover {
+    background-color: #333;
 }

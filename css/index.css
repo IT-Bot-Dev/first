@@ -36,7 +36,7 @@ body {
 .text-regular {
     font-size: 20;
     font-style: medium;
-    /*margin: 0 auto;*/
+    margin: 0 auto;
 }
 
 .text-mono {
@@ -119,13 +119,53 @@ a:hover {
 
 .nav-link {
     min-width:auto;
-    height: 30px;
+    min-height: 30px;
+    height: auto;
     display: flex;
     justify-content: flex-start;
+    gap: 8px;
 }
 
 .nav-link a {
     margin: 0 6vw 0 3vw
+}
+
+/* Custom Language Dropdown */
+.language-dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.language-menu {
+    display: none;
+    position: absolute;
+    bottom: 100%;
+    left: 0;
+    margin-bottom: 4px;
+    background-color: #F9F6F2;
+    border: 1px solid #E6E6E6;
+    border-radius: 4px;
+    padding: 8px 0;
+    min-width: 120px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    z-index: 1000;
+}
+
+.language-menu.active {
+    display: block;
+}
+
+.language-menu a {
+    display: block;
+    padding: 8px 16px;
+    margin: 0;
+    color: black;
+    text-decoration: none;
+}
+
+.language-menu a:hover {
+    background-color: #E6E6E6;
+    color: grey;
 }
 
 .footer-icons-frame{
@@ -158,6 +198,7 @@ a:hover {
 
 .image-frame{
     width: 30vw;
+    /*min-width: 80vw;*/
     height: 70vh;
     border-radius: 8px;
     background-size: cover;
@@ -193,38 +234,158 @@ a:hover {
     color: grey;
 }
 
-/* Small Mobile Devices (<= 360px) */
-@media only screen and (max-width: 360px) {
+/* Testimonial Component */
+.testimonial-card {
+    display: flex;
+    flex-direction: row;
+    margin-top: 24px;
+    padding-left: 20px;
+    border-left: 2px solid #E6E6E6;
+    gap: 16px;
+    align-items: flex-start;
+}
+
+.testimonial-image {
+    width: 60px;
+    height: 60px;
+    min-width: 60px;
+    min-height: 60px;
+    border-radius: 4px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: none; /* Hidden by default */
+}
+
+.testimonial-image[style*="background-image"] {
+    display: block; /* Show only if background-image is set */
+}
+
+.testimonial-content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.testimonial-feedback {
+    font-style: italic;
+    margin-bottom: 12px;
+}
+
+.testimonial-client {
+    margin-bottom: 6px;
+}
+
+.testimonial-link {
+    font-size: 0.9em;
+}
+
+/* Ultra narrow Mobile Devices (<= 400px) */
+@media only screen and (max-width: 400px) {
+    .logo {
+        display: none;
+    }
+    .nav-link {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+}
+
+/* Mobile Devices (<= 767px) */
+@media only screen and (max-width: 767px) {
     .root-container {
         padding: 0;
     }
 
-    .text-title {
-        font-size: 2rem;  /* 3 times larger than body text */
+    header {
+        margin-left: 8px;
+        margin-right: 8px;
     }
-    
+
+    .slogan {
+        padding-left: 8px;
+        padding-right: 8px;
+    }
+
+    .text-title {
+        font-size: 2rem;
+    }
+
     .text-important {
-        font-size: 1.25rem;  
+        font-size: 1.25rem;
         font-style: regular;
         margin: 5px;
     }
-    footer{
+
+    footer {
         flex-wrap: wrap;
     }
+
+
     button {
-        min-width: 20vw;
+        min-width: 112px;
     }
 
-    .content-frame{
+    .content-frame {
         flex-direction: column;
-    }   
-
-
-    .image-frame{
-        display:none;
     }
-    .text-frame{
+
+    .image-frame {
+        display: none;
+    }
+
+    .text-frame {
         width: 100%;
+    }
+
+    .testimonial-card {
+        flex-direction: column;
+        padding-left: 10px;
+    }
+}
+
+/* Tablet Devices (768px - 1279px) */
+@media only screen and (max-width: 1279px) {
+    .root-container {
+        padding-left: 3vw;
+        padding-right: 3vw;
+    }
+
+    .logo {
+        width: 40px;
+        height: 40px;
+        min-width: 40px;
+        min-height: 40px;
+    }
+
+    .content-frame {
+        width: 94vw;
+    }
+}
+
+
+/* Ultra-Wide Displays (>= 2560px) */
+@media only screen and (min-width: 2560px) {
+    .root-container {
+        max-width: 2400px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .text-title {
+        font-size: 4rem;
+    }
+
+    .text-important {
+        font-size: 1.5rem;
+    }
+
+    .image-frame {
+        max-height: 60vh;
+    }
+
+    .content-frame {
+        gap: 3rem;
     }
 }    
 
